@@ -1,0 +1,42 @@
+<!-- views/form.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Data</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container ">
+        <a href="/" class="formBtn"><i class="fas fa-arrow-left"></i></a>
+    <form action="/addData" method="post">
+
+        <label class="mt" for="dataType">Data Type:</label>
+        <select name="dataType" required>
+            <option value="expense">Expense</option>
+            <option value="income">Income</option>
+        </select><br>
+
+        <label for="sno">SNO:</label>
+        <input type="text" name="sno" required><br>
+
+        <label for="date">Date:</label>
+        <input type="date" name="date" required><br>
+
+        <label for="particular">Particular:</label>
+        <input type="text" name="particular" required><br>
+
+        <label for="amt">AMT:</label>
+        <input type="text" name="amt" required><br>
+ 
+        <input class="formBtn" type="submit" value="Add Data">
+        
+    </form>
+</div>
+</body>
+</html>

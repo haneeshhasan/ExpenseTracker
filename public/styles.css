@@ -1,0 +1,191 @@
+/* public/styles.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin: 10px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    color: #333;
+    text-align: center;
+    margin: 0;
+}
+
+.text {
+    color: #333;
+    margin: 0 0 10px 5px;
+}
+
+.textb {
+    color: #333;
+    margin: 60px 0 10px 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+thead {
+    background-color: #3498db;
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.removeButton {
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.removeButton:hover {
+    background-color: #d32f2f;
+}
+
+.routeContainer a{
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.routeContainer a:hover {
+    background-color: #2980b9;
+}
+
+.routeContainer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+}
+
+.formBtn{
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.mt{
+    margin-top: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.card:last-child {
+    margin-right: 0; 
+}
+
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    background-color: #f0f0f0; 
+    cursor: pointer;
+}
+
+.hr{
+    margin: 30px 10px;
+}
+
+.downloadBtn{
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.downloadBtn:hover {
+    background-color: #2980b9;
+}
+
+.responsive-table {
+    overflow-x: auto;
+    margin: 0 auto;
+}
+
+/* Adjustments for smaller screens */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin: 0 0 10px 0;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    input,
+    select {
+        width: calc(100% - 20px);
+        /* Adjust width for smaller screens */
+    }
+
+    /* ... (add more adjustments as needed) ... */
+}
