@@ -1,7 +1,7 @@
-# Nasar AlOtaibi Pvt Ltd - Expense Tracker
+# Expense Tracker
 
 ## Overview
-This web application, developed for Nasar AlOtaibi Pvt Ltd, serves as an Expense Tracker to manage and analyze financial data. It allows users to add and view expense and income data, provides analytics on total expenses, income, profit, and loss.
+This web application, It allows users to add and view expense and income data, provides analytics on total expenses, income, profit, and loss.
 
 ## Features
 - **Add Data:** Easily add new expense or income data through a user-friendly form.
